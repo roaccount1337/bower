@@ -13,7 +13,7 @@ Please see: https://github.com/bower/bower/releases
 - Show in warning message location of malformed bower.json (#2357)
 - Improve handling of non-semver versions in git resolver (#2316)
 - Fix handling of cached releases pluginResolverFactory (#2356)
-- Allow to type the entire version when conflict occured (#2243)
+- Allow to type the entire version when conflict occurred (#2243)
 - Allow `owner/reponame` shorthand for registering components (#2248)
 - Allow single-char repo names and package names (#2249)
 - Make `bower version` no longer honor `version` in bower.json (#2232)
@@ -122,7 +122,7 @@ https://github.com/npm/npm/issues/11227
 
 ## 1.6.7 - 2015-11-26
 
-- Bundless all the dependencies again
+- boundless all the dependencies again
 
 ## 1.6.6 - 2015-11-25
 
@@ -161,7 +161,7 @@ Fix dependency issues of 1.6.0. Reverted release.
 - Allow for ignoring of child dependencies ([#1394](https://github.com/bower/bower/pull/1394))
 - Allow passing `--config.resolvers` through CLI ([#1922](https://github.com/bower/bower/pull/1922))
 - Use defaults values from package.json if it exists (bower init) ([#1731](https://github.com/bower/bower/issues/1731))
-- Properly use cerificates set in .bowerrc ([#1869](https://github.com/bower/bower/pull/1869))
+- Properly use certificates set in .bowerrc ([#1869](https://github.com/bower/bower/pull/1869))
 - Include package name when version conflict occurs ([#1917](https://github.com/bower/bower/pull/1917))
 - Add timeout for permission check ([yeoman/insight#35](https://github.com/yeoman/insight/pull/35))
 - Close file-handles when possible. Prevents all sorts of permission issues on Windows ([0bb1536](https://github.com/bower/bower/commit/0bb1536c9972e13f3be06bea9a8619632966c664))
@@ -405,7 +405,7 @@ _NOTE_: It's advisable that users run `bower cache clean`.
 - __`bower info <package>` will now show the latest `<package>` information along with the available versions__ ([#759](https://github.com/bower/bower/issues/759))
 - __`bower link` no longer requires an elevated user on Windows in most cases__ ([#472](https://github.com/bower/bower/issues/472))
 - __Init command now prompts for the whole `bower.json` spec properties, filling in default values for `author` and `homepage` based on `git` settings__ ([#693](https://github.com/bower/bower/issues/693))
-- Changes to endpoint sources in `bower.json` are now catched up by `bower install` and `bower update` ([#788](https://github.com/bower/bower/issues/788))
+- Changes to endpoint sources in `bower.json` are now caught up by `bower install` and `bower update` ([#788](https://github.com/bower/bower/issues/788))
 - Allow semver ranges in `bower cache clean`, e.g. `bower cache clean jquery#<2.0.0` ([#688](https://github.com/bower/bower/issues/688))
 - Normalize `bower list --paths` on Windows ([#279](https://github.com/bower/bower/issues/279))
 - Multiple mains are now correctly outputted as an array in `bower list --paths` ([#784](https://github.com/bower/bower/issues/784))
